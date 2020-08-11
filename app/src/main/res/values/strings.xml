@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Personal Givings Viewer</string>
+    <string name="app_name_caption">Android App Version</string>
+    <string name="app_label">Givings Viewer</string>
+    <string name="hhpc">H.H.P.C.</string>
+    <string name="hhpc_logo_content_description">HHPC logo</string>
+    <string name="pin">PIN</string>
+    <string name="fwo">FWO</string>
+    <string name="pin_hint">eg. abc123d</string>
+    <string name="fwo_hint">eg. 001</string>
+    <string name="submit">Submit</string>
+    <string name="fwo_number_title">FWO Number: %1$s</string>
+    <string name="fund_title">Fund title</string>
+    <string name="amount_title">Amount (£)</string>
+    <string name="fwo_fund_title">FWO</string>
+    <string name="development_fund_title">Devlopment</string>
+    <string name="united_appeal_fund_title">United Appeal</string>
+    <string name="world_development_fund_title">World Development</string>
+    <string name="lambeg_project_fund_title">Lambeg Project</string>
+    <string name="total_fund_title">Total</string>
+    <string name="amount">£%1$s</string>
+    <string name="loading">loading…</string>
+    <string name="incorrect_credentials_error_text">Incorrect FWO number or PIN</string>
+    <string name="sign_out">Sign out</string>
+    <string name="date_text">Data valid up to: %1$s</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861520292247",
+    "firebase_url": "https://hhpc-weekly-givings-website.firebaseio.com",
+    "project_id": "hhpc-weekly-givings-website",
+    "storage_bucket": "hhpc-weekly-givings-website.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861520292247:android:262eef9fe87dd984c7fcd2",
+        "android_client_info": {
+          "package_name": "com.crumble.buchanan.personalgivingsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861520292247-4cr4vuo2idkalfchc4aud34b9jlbhgeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbbWRENc0cNY_i4frQAZ6imxurd213LJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861520292247-4cr4vuo2idkalfchc4aud34b9jlbhgeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
