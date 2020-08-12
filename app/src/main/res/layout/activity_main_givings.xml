@@ -13,6 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/titillium_web"
         android:text="@string/fwo_number_title"
         android:textAlignment="center"
         android:textSize="40sp"
@@ -36,6 +37,7 @@
             android:id="@+id/headerTableRow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#D3D3D3"
             android:gravity="center">
 
             <TextView
@@ -43,6 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/fund_title"
                 android:textSize="20sp" />
 
@@ -51,6 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/amount_title"
                 android:textSize="20sp" />
         </TableRow>
@@ -65,6 +69,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
                 android:layout_span="2"
+                android:fontFamily="@font/titillium_web"
                 android:text=""></TextView>
         </TableRow>
 
@@ -79,6 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/fwo_fund_title"
                 android:textSize="20sp" />
 
@@ -87,6 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/loading"
                 android:textSize="20sp" />
         </TableRow>
@@ -100,6 +107,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
                 android:layout_span="2"
+                android:fontFamily="@font/titillium_web"
                 android:text=""></TextView>
         </TableRow>
 
@@ -114,6 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/development_fund_title"
                 android:textSize="20sp" />
 
@@ -122,6 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/loading"
                 android:textSize="20sp" />
         </TableRow>
@@ -136,6 +146,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
                 android:layout_span="2"
+                android:fontFamily="@font/titillium_web"
                 android:text=""></TextView>
         </TableRow>
 
@@ -150,6 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/united_appeal_fund_title"
                 android:textSize="20sp" />
 
@@ -158,6 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/loading"
                 android:textSize="20sp" />
         </TableRow>
@@ -172,6 +185,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
                 android:layout_span="2"
+                android:fontFamily="@font/titillium_web"
                 android:text=""></TextView>
         </TableRow>
 
@@ -186,6 +200,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/world_development_fund_title"
                 android:textSize="20sp" />
 
@@ -194,6 +209,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/loading"
                 android:textSize="20sp" />
         </TableRow>
@@ -208,6 +224,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
                 android:layout_span="2"
+                android:fontFamily="@font/titillium_web"
                 android:text=""></TextView>
         </TableRow>
 
@@ -222,6 +239,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/lambeg_project_fund_title"
                 android:textSize="20sp" />
 
@@ -230,6 +248,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/loading"
                 android:textSize="20sp" />
         </TableRow>
@@ -244,6 +263,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
                 android:layout_span="2"
+                android:fontFamily="@font/titillium_web"
                 android:text=""></TextView>
         </TableRow>
 
@@ -258,6 +278,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/total_fund_title"
                 android:textSize="20sp" />
 
@@ -266,6 +287,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:fontFamily="@font/titillium_web"
                 android:text="@string/loading"
                 android:textSize="20sp" />
         </TableRow>
@@ -275,17 +297,19 @@
         android:id="@+id/signOutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:fontFamily="@font/titillium_web"
         android:text="@string/sign_out"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/dateTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/titillium_web"
         android:text="@string/date_text"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/fundsTabeLayout"

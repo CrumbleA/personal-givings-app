@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         submitButton.setOnClickListener {
             val fwoNumberString = fwoEditTextNumber.text.toString().padStart(3, '0')
+            val churchEmailString = churchSpinner.selectedItem.toString().toLowerCase()
 
             if (fwoEditTextNumber.text.toString().isEmpty() || pinEditTextPassword.text.toString().isEmpty()) {
                 Toast.makeText(this, "Sign in failed. Try again.", Toast.LENGTH_SHORT).show()
@@ -39,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             firebaseAuth.signInWithEmailAndPassword(
-                "${fwoNumberString}@example.com",
+                "${fwoNumberString}@${churchEmailString}.com",
                 pinEditTextPassword.text.toString()
             ).addOnCompleteListener { task ->
                 if (task.isSuccessful) {

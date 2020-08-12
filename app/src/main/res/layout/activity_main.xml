@@ -15,6 +15,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/titillium_web"
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textSize="48sp"
@@ -27,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/titillium_web"
         android:text="@string/app_name_caption"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,6 +58,50 @@
         app:layout_constraintBottom_toTopOf="@+id/pinTextView"
         app:layout_constraintStart_toStartOf="parent" />-->
 
+    <TextView
+        android:id="@+id/crumbleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/titillium_web"
+        android:text="@string/powered_by_crumble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appNameTextView" />
+
+    <LinearLayout
+        android:id="@+id/churchLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/fwoLinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/churchTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:paddingStart="50dp"
+            android:text="@string/church"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/churchSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/churches"
+            android:paddingStart="10dp"
+            android:paddingEnd="50dp" />
+
+    </LinearLayout>
+
     <LinearLayout
         android:id="@+id/fwoLinearLayout"
         android:layout_width="0dp"
@@ -73,6 +119,7 @@
             android:id="@+id/fwoTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
             android:text="@string/fwo"
             android:textSize="30sp" />
 
@@ -82,9 +129,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:ems="10"
-            android:hint="@string/fwo_hint"
-            android:inputType="number"
-            android:maxLength="3" />
+            android:fontFamily="@font/titillium_web"
+            android:inputType="number" />
 
     </LinearLayout>
 
@@ -105,6 +151,7 @@
             android:id="@+id/pinTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
             android:text="@string/pin"
             android:textSize="30sp" />
 
@@ -114,9 +161,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:ems="10"
-            android:hint="@string/pin_hint"
-            android:inputType="textPassword"
-            android:maxLength="7" />
+            android:fontFamily="@font/titillium_web"
+            android:inputType="textPassword" />
 
     </LinearLayout>
 
@@ -127,6 +173,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/titillium_web"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

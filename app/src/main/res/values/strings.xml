@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Personal Givings Viewer</string>
     <string name="app_name_caption">Android App Version</string>
+    <string name="powered_by_crumble">Powered by Crumble</string>
     <string name="app_label">Givings Viewer</string>
     <string name="hhpc">H.H.P.C.</string>
     <string name="hhpc_logo_content_description">HHPC logo</string>
     <string name="pin">PIN</string>
     <string name="fwo">FWO</string>
+    <string name="church">Church</string>
     <string name="pin_hint">eg. abc123d</string>
     <string name="fwo_hint">eg. 001</string>
     <string name="submit">Submit</string>
@@ -23,4 +25,9 @@
     <string name="incorrect_credentials_error_text">Incorrect FWO number or PIN</string>
     <string name="sign_out">Sign out</string>
     <string name="date_text">Data valid up to: %1$s</string>
+
+    <string-array name="churches">
+        <item name="select_church">Select a church</item>
+        <item name="hhpc">HHPC</item>
+    </string-array>
 </resources>

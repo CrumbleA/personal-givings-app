@@ -20,6 +20,7 @@ class MainGivingsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main_givings)
 
         val fwoNumberString = intent.getStringExtra("email")?.substring(0, 3)
+        val churchCodeString = intent.getStringExtra("email")?.split('@')?.get(1)?.split('.')?.get(0)
         println(fwoNumberString)
         val fwoNumber = fwoNumberString?.toInt()
 
@@ -27,7 +28,9 @@ class MainGivingsActivity : AppCompatActivity() {
 
         val firebaseDatabase = Firebase.database
 
-        val myRef = firebaseDatabase.getReference("/users/${Firebase.auth.currentUser!!.uid}")
+        println("${churchCodeString}/users/${Firebase.auth.currentUser!!.uid}")
+
+        val myRef = firebaseDatabase.getReference("${churchCodeString}/users/${Firebase.auth.currentUser!!.uid}")
         myRef.addValueEventListener( object : ValueEventListener {
             override fun onDataChange(dataSnaphot: DataSnapshot) {
                 val user = dataSnaphot.getValue<User>()
@@ -54,7 +57,7 @@ class MainGivingsActivity : AppCompatActivity() {
             }
         })
 
-        val dateRef = firebaseDatabase.getReference("/date")
+        val dateRef = firebaseDatabase.getReference("${churchCodeString}/date")
         dateRef.addValueEventListener( object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val dateObject = dataSnapshot.getValue<JSONDate>()
