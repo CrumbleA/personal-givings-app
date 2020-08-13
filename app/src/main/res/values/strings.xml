@@ -24,7 +24,7 @@
     <string name="loading">loading…</string>
     <string name="incorrect_credentials_error_text">Incorrect FWO number or PIN</string>
     <string name="sign_out">Sign out</string>
-    <string name="date_text">Data valid up to: %1$s</string>
+    <string name="date_text">Showing givings from %1$s to %2$s</string>
 
     <string-array name="churches">
         <item name="select_church">Select a church</item>

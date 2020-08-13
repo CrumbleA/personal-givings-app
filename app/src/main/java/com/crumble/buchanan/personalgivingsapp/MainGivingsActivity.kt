@@ -62,7 +62,7 @@ class MainGivingsActivity : AppCompatActivity() {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val dateObject = dataSnapshot.getValue<JSONDate>()
 
-                dateTextView.text = getString(R.string.date_text, dateObject?.dateValue ?: "no date found")
+                dateTextView.text = getString(R.string.date_text, dateObject?.dateStart, dateObject?.dateEnd)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -90,5 +90,6 @@ data class User (
 )
 
 data class JSONDate (
-    var dateValue: String? = null
+    var dateStart: String? = null,
+    var dateEnd: String? = null
 )
